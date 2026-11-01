@@ -150,7 +150,16 @@ egypt-solar-data-pipeline/
 
 ## 📊 Sample Output
 
-<!-- Add a screenshot or a small table of results from gold.fact_solar_hourly here, e.g. average daily kWh/kWp per city. -->
+Estimated output of a 1 kWp horizontal solar system in 2025 (from `gold.fact_solar_hourly`):
+
+| City | Total 2025 (kWh/kWp) | Average per day (kWh/kWp) |
+|---|---|---|
+| Aswan | 1,799 | 4.93 |
+| Hurghada | 1,776 | 4.87 |
+| Cairo | 1,617 | 4.43 |
+| Alexandria | 1,585 | 4.34 |
+
+**Insight:** the same solar system produces about **13% more energy in Aswan than in Alexandria**, reflecting stronger, more consistent sunshine in Upper Egypt despite higher temperatures there.
 
 ---
 
